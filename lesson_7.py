@@ -69,12 +69,11 @@ class Suit(Clothes):
     def consumption(self):
         return 2 * self.length + 0.3
 
-# coat = Coat(200)
-# print(f'на пальто израсходновано: {coat.consumption()} метров')
+coat = Coat(200)
+print(f'на пальто израсходновано: {coat.consumption()} метров')
 
-# suit = Suit(150)
-# print(f'на костюм израсходовано: {suit.consumption()} метров')
-
+suit = Suit(150)
+print(f'на костюм израсходовано: {suit.consumption()} метров')
 
 # задание третье - Клетка
 
@@ -120,11 +119,11 @@ self.str_1 += "\n"
 return self.str_1
 """
 
-# c_1 = Cell(56)
-# c_2 = Cell(10)
-# print(c_1 + c_2)
-# print(c_1 - c_2)
-# print(c_1 / c_2)
-# print(c_1 * c_2)
+c_1 = Cell(56)
+c_2 = Cell(10)
+print(c_1 + c_2)
+print(c_1 - c_2)
+print(c_1 / c_2)
+print(c_1 * c_2)
 ##print(c_1.make_order_2(9))
-# print(c_1.make_order(10))
+print(c_1.make_order(10))
